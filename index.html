@@ -1,12 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mi primera página - Clase de Aplicaciones Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Naturaleza</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("imagenes/fondo-naturaleza.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            -webkit-text-stroke: 1px rgb(255, 255, 255);
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 16px;
+            color: white;
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        img {
+            display: block;
+            max-width: 400px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-  <h1>Mi primera página publicada</h1>
-  <p>Esta página la subí en la clase de Aplicaciones Web.</p>
+    <h1>La Belleza de la Naturaleza</h1>
+    <p>
+        La naturaleza nos regala paisajes increíbles, aire fresco y una gran variedad de animales y plantas.
+        Es importante cuidarla y respetarla, ya que nos brinda recursos vitales para nuestra supervivencia.
+        Bosques, ríos, montañas y mares son el hogar de miles de especies que conviven en un delicado equilibrio.
+    </p>
+
+    <img src="imagenes/bosque.jpg" alt="Bosque verde">
+    <img src="imagenes/montaña.jpg" alt="Montaña nevada">
+    <img src="imagenes/playa.jpg" alt="Playa con atardecer">
+
+    <p>
+        Cada rincón del planeta tiene su propia belleza única. Ya sea un atardecer en la playa, una caminata
+        en las montañas o un paseo por el bosque, la naturaleza nos conecta con lo más esencial de la vida.
+    </p>
 </body>
 </html>
